@@ -1,0 +1,125 @@
+{
+  "definitions": {
+    "days": [
+      {
+        "weekday": {
+          "wakeup": "6:00 AM",
+          "activites": [
+            "workout",
+            "meetings",
+            "work",
+            "sleep"
+          ],
+          "sleeptime": "10:00 PM"
+        }
+      },
+      {
+        "weekend": {
+          "wakeup": "8:00 AM",
+          "activites": [
+            "workout",
+            "playing",
+            "movies",
+            "friends",
+            "sleep"
+          ],
+          "sleeptime": "12:00 AM"
+        }
+      }
+    ]
+  },
+  "schedules": {
+    "days": {
+      "weekdays": [
+        {
+          "monday": {
+            "wakeup": "6:00 AM",
+            "activites": [
+              "workout",
+              "meetings",
+              "work",
+              "sleep"
+            ],
+            "sleeptime": "10:00 PM"
+          }
+        },
+        {
+          "tuesday": {
+            "wakeup": "6:00 AM",
+            "activites": [
+              "workout",
+              "meetings",
+              "work",
+              "sleep"
+            ],
+            "sleeptime": "10:00 PM"
+          }
+        },
+        {
+          "wednesday": {
+            "wakeup": "6:00 AM",
+            "activites": [
+              "workout",
+              "meetings",
+              "work",
+              "sleep"
+            ],
+            "sleeptime": "10:00 PM"
+          }
+        },
+        {
+          "thursday": {
+            "wakeup": "6:00 AM",
+            "activites": [
+              "workout",
+              "meetings",
+              "work",
+              "sleep"
+            ],
+            "sleeptime": "10:00 PM"
+          }
+        },
+        {
+          "friday": {
+            "wakeup": "6:00 AM",
+            "activites": [
+              "workout",
+              "meetings",
+              "work",
+              "sleep"
+            ],
+            "sleeptime": "10:00 PM"
+          }
+        }
+      ],
+      "weekends": [
+        {
+          "saturday": {
+            "wakeup": "8:00 AM",
+            "activites": [
+              "workout",
+              "playing",
+              "movies",
+              "friends",
+              "sleep"
+            ],
+            "sleeptime": "12:00 AM"
+          }
+        },
+        {
+          "sunday": {
+            "wakeup": "8:00 AM",
+            "activites": [
+              "workout",
+              "playing",
+              "movies",
+              "friends",
+              "sleep"
+            ],
+            "sleeptime": "12:00 AM"
+          }
+        }
+      ]
+    }
+  }
+}

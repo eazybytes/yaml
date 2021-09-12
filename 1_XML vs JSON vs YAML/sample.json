@@ -1,0 +1,16 @@
+{
+    "applications": [
+      {
+        "name": "Accounts",
+        "technology": "Python"
+      },
+      {
+        "name": "Cards",
+        "technology": "Java"
+      },
+      {
+        "name": "Loans",
+        "technology": "Ruby"
+      }
+    ]
+}

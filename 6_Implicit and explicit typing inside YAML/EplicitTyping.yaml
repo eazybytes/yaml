@@ -1,0 +1,21 @@
+---
+# Boolean explicit declaration
+YAML is a superset of JSON: !!bool true
+Pluto is a planet: !!bool false
+# Integer explicit declaration
+negative: !!int -16
+zero: !!int 0
+positive: !!int 30
+# Float explicit declaration
+negative-flot: !!float -3.14
+zero-flot: !!float 0
+positive-float: !!float 16
+# String explicit declaration
+sampleNumString: !!str 8.14
+sampleString: !!str EazyBytes
+sampleDate: !!str 1989-06-16
+# Timestamp explicit declaration
+randomdate: !!timestamp 2001-12-15 2:59:43.10
+# Null explicit declaration
+key with null value: !!null null
+...

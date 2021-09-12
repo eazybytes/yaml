@@ -1,0 +1,17 @@
+{
+  "name": "eazybytes",
+  "languagge": "Java",
+  "area": "Online",
+  "major-version": 2,
+  "minor-version": 0.5,
+  "hex": 4822,
+  "octal": 10522,
+  "goodDay": true,
+  "badday": false,
+  "niceweekend": true,
+  "boringweekend": false,
+  "positive-infinity": Infinity,
+  "negative-infinity": -Infinity,
+  "invalidNumber": NaN,
+  "no-value": null
+}

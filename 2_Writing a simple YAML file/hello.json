@@ -1,0 +1,9 @@
+{
+  "firstname": "eazy",
+  "lastname": "bytes",
+  "courses": [
+    "YAML",
+    "Spring Microservices",
+    "Spring Security"
+  ]
+}

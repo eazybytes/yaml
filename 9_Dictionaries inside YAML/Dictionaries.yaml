@@ -1,0 +1,14 @@
+# An Application record
+applications:
+  - cards:
+      name: EazyCards
+      technology: Python
+      team-size: 12
+  - accounts:
+      name: EazyAccounts
+      technology: Java
+      team-size: 50
+  - loans:
+      name: EazyLoans
+      technology: Ruby
+      team-size: 8

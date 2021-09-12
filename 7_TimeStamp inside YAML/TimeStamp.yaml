@@ -1,0 +1,12 @@
+# Date & Time representation using String
+canonical_string: 2001-12-15T02:59:43.1Z
+iso8601_string: 2001-12-14t21:59:43.10-05:00
+space separated_string: 2001-12-14 21:59:43.10 -5
+no time zone (Z)_string: 2001-12-15 2:59:43.10
+date (00:00:00Z)_string: 2002-12-14
+# Date & Time representation using timestamp
+canonical: !!timestamp 2001-12-15T02:59:43.1Z
+iso8601: !!timestamp 2001-12-14t21:59:43.10-05:00
+space separated: !!timestamp 2001-12-14 21:59:43.10 -5
+no time zone (Z): !!timestamp 2001-12-15 2:59:43.10
+date (00:00:00Z): !!timestamp 2002-12-14

@@ -1,0 +1,14 @@
+<applications>
+  <application>
+      <name>Accounts</name>
+      <technology>Python</technology>
+   </application>
+   <application>
+       <name>Cards</name>
+       <technology>Java</technology>
+    </application>
+    <application>
+        <name>Loans</name>
+        <technology>Ruby</technology>
+     </application>
+</applications>

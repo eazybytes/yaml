@@ -1,0 +1,33 @@
+organization: eazybank
+about: |
+  EazyBank
+  is an
+  Bank based
+  application.
+history: >
+  EazyBank
+  established
+  in 1989.
+products: "[Accounts] & {Cards} - <Loans>" #For special characters, we need to use double quotes in String
+hasMobileApp: "Yes" #With out quotes will result as True
+locations:
+  - Hyderabad
+  - NewYork
+  - Paris
+  - Singapore
+applications:
+  - cards:
+      name: EazyCards
+      technology: Python
+      team-size: 12
+      lastDeployed: !!timestamp 2021-08-04
+  - accounts:
+      name: EazyAccounts
+      technology: Java
+      team-size: 50
+      lastDeployed: !!timestamp 2021-06-04
+  - loans:
+      name: EazyLoans
+      technology: Ruby
+      team-size: 8
+      lastDeployed: !!timestamp 2021-02-04

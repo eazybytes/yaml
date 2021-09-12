@@ -1,0 +1,11 @@
+# Keys can also be complex, like multi-line objects
+# We use ? followed by a space to indicate the start of a complex key.
+? This is a key
+  that has multiple lines
+: and this is its value
+? - Development
+  - UAT
+  - PROD
+: - http://dev.eazybank.com
+  - http://uat.eazybank.com
+  - http://prod.eazybank.com

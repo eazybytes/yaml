@@ -1,0 +1,15 @@
+{
+  "YAML is a superset of JSON": true,
+  "zero-flot": 0.0,
+  "sampleDate": "1989-06-16",
+  "positive": 30,
+  "randomdate": "2001-12-15 02:59:43",
+  "negative": -16,
+  "zero": 0,
+  "Pluto is a planet": false,
+  "positive-float": 16.0,
+  "negative-flot": -3.14,
+  "key with null value": null,
+  "sampleNumString": "8.14",
+  "sampleString": "EazyBytes"
+}

@@ -1,0 +1,8 @@
+{
+  "This is a key that has multiple lines": "and this is its value",
+  "[\"Development\", \"UAT\", \"PROD\"]": [
+    "http://dev.eazybank.com",
+    "http://uat.eazybank.com",
+    "http://prod.eazybank.com"
+  ]
+}

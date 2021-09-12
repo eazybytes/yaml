@@ -1,0 +1,39 @@
+{
+  "applications": [
+    "Cards",
+    "Loans",
+    "Accounts"
+  ],
+  "products": [
+    {
+      "Accounts": [
+        "Savings Account",
+        "Current Account"
+      ]
+    },
+    {
+      "Loans": [
+        "Home Loan",
+        "Car Loan",
+        "Personal Loan"
+      ]
+    },
+    {
+      "Cards": [
+        "Credit Card",
+        "Debit Card"
+      ]
+    }
+  ],
+  "locations": [
+    "Hyderabad",
+    "NewYork",
+    "Berlin",
+    "Paris"
+  ],
+  "departments": [
+    "Marketing",
+    "Insurance",
+    "Security"
+  ]
+}

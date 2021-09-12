@@ -1,0 +1,25 @@
+{
+  "applications": [
+    {
+      "cards": {
+        "technology": "Python",
+        "name": "EazyCards",
+        "team-size": 12
+      }
+    },
+    {
+      "accounts": {
+        "technology": "Java",
+        "name": "EazyAccounts",
+        "team-size": 50
+      }
+    },
+    {
+      "loans": {
+        "technology": "Ruby",
+        "name": "EazyLoans",
+        "team-size": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+name: eazybytes
+languagge: "Java"
+area: 'Online'
+major-version: 2
+minor-version: 0.5
+hex: 0x12d6 #evaluates to 4822
+octal: 024432 #evaluates to 10522
+goodDay: true
+badday: false
+niceweekend: Yes
+boringweekend: No
+positive-infinity: .inf # evaluates to infinity
+negative-infinity: -.Inf #evaluates to negative infinity
+invalidNumber: .NAN #Not a Number
+null-value: null
+null-value1: ~
