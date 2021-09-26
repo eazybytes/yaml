@@ -1,6 +1,6 @@
 # YAML Zero to Master
 
-[![Image](https://www.springboottutorial.com/images/Course-Master-Microservices-with-Spring-Boot-and-Spring-Cloud.png "Master Microservices with Spring Boot and Spring Cloud")](https://www.udemy.com/course/microservices-with-spring-boot-and-spring-cloud/)
+[![Image](https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-09-21_15-07-28-e334de8183b47445ca000c11ea0cdf8d.JPG "YAML Zero to Master")](https://www.udemy.com/course/yaml-zero-to-master/?referralCode=86106E18E5DA5F21D0E1)
 
 Learn basic & advance topics, data types, syntaxes, key features, and capabilities of YAML along with use cases.
 
