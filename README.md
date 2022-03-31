@@ -1,6 +1,6 @@
 # YAML Zero to Master
 
-[![Image](https://img-c.udemycdn.com/redactor/raw/article_lecture/2021-09-21_15-07-28-e334de8183b47445ca000c11ea0cdf8d.JPG "YAML Zero to Master")](https://www.udemy.com/course/yaml-zero-to-master/?referralCode=86106E18E5DA5F21D0E1)
+[![Image](https://img-c.udemycdn.com/redactor/raw/article_lecture/2022-03-30_16-02-19-60663127d626ce18890294210d81e26a.jpg "YAML Zero to Master")](https://www.udemy.com/course/yaml-zero-to-master/?referralCode=86106E18E5DA5F21D0E1)
 
 Learn basic & advance topics, data types, syntaxes, key features, and capabilities of YAML along with use cases.
 
