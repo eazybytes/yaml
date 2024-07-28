@@ -1,0 +1,39 @@
+# Block Style
+hobbies:
+   - reading
+   - travelling
+   - hiking
+# Flow Style
+applications: [frontend, backend, andriod, ios]
+# Nested sequence/Sequence of Mappings with mixed style
+students:
+  - name: John Doe
+    age: 16
+    favorites: {subjects: [Math, Science, History]}
+  - name: Jane Smith
+    age: 17
+    favorites: {subjects: [Literature, Art, Biology]}
+# Mapping of Sequences
+departments:
+  engineering:
+    - Alice
+    - Bob
+    - Carol
+  marketing:
+    - Dave
+    - Eve
+    - Frank
+# Sets are represented as a
+# Mapping where each key is
+# associated with a null value
+cities: !!set
+  ? Washington DC
+  ? London
+  ? Delhi
+# Ordered maps are represented as
+# A sequence of mappings, with
+# each mapping having one key
+capitals: !!omap
+  - USA: Washington DC
+  - United Kingdom: London
+  - India: Delhi

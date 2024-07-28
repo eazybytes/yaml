@@ -1,0 +1,22 @@
+# Implicit Typing
+name: John Doe
+age: 30
+height: 5.9
+is_active: true
+is_admin: No
+nickname: null
+created_at: 2034-07-23T10:20:00Z
+# Explicit Typing using Tags
+fullname: !!str John Doe
+ageInString: !!str 30
+ageInInt: !!int "30"
+heightInFloat: !!float "5.9"
+isActive: !!bool "true"
+nick_name: !!null ""
+createdAt: !!timestamp "2034-07-23T10:20:00Z"
+not-date: !!str 2034-04-28
+picture: !!binary |
+ R0lGODlhDAAMAIQAAP//9/X
+ 17unp5WZmZgAAAOfn515eXv
+ Pz7Y6OjuDg4J+fn5OTk6enp
+ 56enmleECcgggoBADs=

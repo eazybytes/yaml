@@ -1,0 +1,37 @@
+# First Document: Application Configuration
+---
+application:
+  name: MyApp
+  version: 1.0
+  environment: production
+  settings:
+    database:
+      host: db.example.com
+      port: 5432
+      user: admin
+      password: secret
+    cache:
+      type: redis
+      timeout: 30
+
+# Second Document: User Data
+---
+users:
+  - id: 1
+    name: Alice
+    role: admin
+  - id: 2
+    name: Bob
+    role: user
+  - id: 3
+    name: Carol
+    role: user
+
+# Third Document: Logging Configuration
+---
+logging:
+  level: INFO
+  handlers:
+    - type: file
+      filename: /var/log/myapp.log
+    - type: console

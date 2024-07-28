@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    networks:
+      - webnet
+    environment:
+      - ENV_VAR_1=value1
+      - ENV_VAR_2=value2
+
+  app:
+    image: my-app:latest
+    depends_on:
+      - db
+    ports: ["8080:8080"]
+    volumes:
+      - app-data:/var/lib/my-app
+    networks:
+      - webnet
+      - dbnet
+    environment:
+      APP_ENV: production
+      DB_HOST: db
+      DB_PORT: 5432
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    command: ["sh", "-c", "while true; do echo hello world; sleep 1; done"]
+
+  db:
+    image: postgres:latest
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    networks:
+      - dbnet
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+
+volumes:
+  app-data:
+  db-data:
+
+networks:
+  webnet:
+    driver: bridge
+  dbnet:
+    driver: bridge

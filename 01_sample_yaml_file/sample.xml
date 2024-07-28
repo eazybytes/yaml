@@ -1,0 +1,16 @@
+<person>
+  <name>Madan Reddy</name>
+  <age>35</age>
+  <gender>M</gender>
+  <is_student>false</is_student>
+  <hobbies>
+    <hobby>reading</hobby>
+    <hobby>travelling</hobby>
+    <hobby>hiking</hobby>
+  </hobbies>
+  <address>
+    <street>123 Main St</street>
+    <city>SomeCity</city>
+    <postal_code>12345</postal_code>
+  </address>
+</person>

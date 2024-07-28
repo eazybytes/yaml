@@ -1,0 +1,32 @@
+person:
+  fname: "Madan"
+  lname: Reddy
+  gender: 'M'
+  age: 35
+  weight: 68.5
+  is_student: false
+  isAsian: Yes
+  hobbies:
+    - reading
+    - travelling
+    - hiking
+  address:
+    street: 123 Main St
+    city: SomeCity
+    postal_code: 12345
+
+hex: 0x12d6 #evaluates to 4822
+octal: 0o24432 #evaluates to 10522
+positive-infinity: .inf # evaluates to infinity
+negative-infinity: -.Inf #evaluates to negative infinity
+invalidNumber: .NAN #Not a Number
+null-value: null
+null-value1: ~
+null-value2: 
+with_escape: "Line 1\nLine 2"
+
+
+
+
+
+

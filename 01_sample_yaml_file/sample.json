@@ -1,0 +1,20 @@
+{
+    "person": {
+      "name": "Madan Reddy",
+      "age": 35,
+      "gender": "M",
+      "is_student": false,
+      "hobbies": [
+        "reading",
+        "travelling",
+        "hiking"
+      ],
+      "address": {
+        "street": "123 Main St",
+        "city": "SomeCity",
+        "postal_code": 12345
+      }
+    }
+  }
+
+  

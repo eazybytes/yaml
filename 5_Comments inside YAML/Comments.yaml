@@ -1,7 +1,0 @@
-# this is the best YAML course for you
-isSingleLine : true
-# this
-# is the best YAML
-# course for you
-isMultipleLine : true
-supportingComments : This has more comments # This property has more comments

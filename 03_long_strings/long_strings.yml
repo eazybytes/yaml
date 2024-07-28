@@ -1,0 +1,16 @@
+literal_block: |
+  This is a literal block.
+  Newlines are preserved.
+  So is indentation.
+  Trailing spaces are preserved as well.
+folded_block: >
+  This is a folded block.
+  Newlines become spaces.
+  Indentation is not preserved.
+  Trailing spaces are removed.
+
+
+
+
+
+

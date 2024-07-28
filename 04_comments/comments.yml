@@ -1,0 +1,9 @@
+# Database Configuration
+database:
+  host: localhost # DB server host
+  port: 5432 # DB server port
+
+# API Configuration
+api:
+  endpoint: /api/v1
+  timeout: 30s

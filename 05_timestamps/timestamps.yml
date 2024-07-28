@@ -1,0 +1,5 @@
+someDate: 2034-07-23
+timestamp: 2034-07-23T10:20:30Z # Canonical
+timestamp_with_timezone: 2034-07-23T10:20:30+02:00 # iso8601
+spacedtimestamp_with_timezone: 2034-07-23 10:20:30 -5 # with spaces
+noTimeZone: 2034-07-23 10:20:30 # with out time zone. UTC will be considered
