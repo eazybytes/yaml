@@ -1,8 +1,8 @@
 # Block Style
 hobbies:
-   - reading
-   - travelling
-   - hiking
+  - reading
+  - travelling
+  - hiking
 # Flow Style
 applications: [frontend, backend, andriod, ios]
 # Nested sequence/Sequence of Mappings with mixed style

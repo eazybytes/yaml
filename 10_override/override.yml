@@ -30,8 +30,9 @@ schedules:
          sleeptime: 12:00 AM
          netflix: true
     weekends:
-      - saturday: *holiday
-        netflix: true
+      - saturday:
+          <<: *holiday
+          netflix: true
       - sunday:
-         <<: *holiday
-         sleeptime: 10:00 PM
+          <<: *holiday
+          sleeptime: 10:00 PM

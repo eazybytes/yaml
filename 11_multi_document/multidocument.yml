@@ -13,7 +13,7 @@ application:
     cache:
       type: redis
       timeout: 30
-
+...
 # Second Document: User Data
 ---
 users:
@@ -26,7 +26,7 @@ users:
   - id: 3
     name: Carol
     role: user
-
+...
 # Third Document: Logging Configuration
 ---
 logging:
@@ -35,3 +35,4 @@ logging:
     - type: file
       filename: /var/log/myapp.log
     - type: console
+...

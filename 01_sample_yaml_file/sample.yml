@@ -10,4 +10,4 @@ person:
   address:
     street: 123 Main St
     city: SomeCity
-    postal_code: 12345
+    zipCode: 12345

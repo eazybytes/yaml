@@ -14,7 +14,7 @@ heightInFloat: !!float "5.9"
 isActive: !!bool "true"
 nick_name: !!null ""
 createdAt: !!timestamp "2034-07-23T10:20:00Z"
-not-date: !!str 2034-04-28
+not-date: !!str 2034-07-23
 picture: !!binary |
  R0lGODlhDAAMAIQAAP//9/X
  17unp5WZmZgAAAOfn515eXv

@@ -5,7 +5,7 @@ person:
   age: 35
   weight: 68.5
   is_student: false
-  isAsian: Yes
+  is_Asian: Yes # will be bool for <1.2, otherwise it will str
   hobbies:
     - reading
     - travelling
@@ -13,20 +13,16 @@ person:
   address:
     street: 123 Main St
     city: SomeCity
-    postal_code: 12345
+    zipCode: 12345
 
 hex: 0x12d6 #evaluates to 4822
-octal: 0o24432 #evaluates to 10522
+octal: 0o24432 #evaluates to 10522. 0 for <1.2, otherwise 0o
 positive-infinity: .inf # evaluates to infinity
 negative-infinity: -.Inf #evaluates to negative infinity
 invalidNumber: .NAN #Not a Number
 null-value: null
 null-value1: ~
 null-value2: 
-with_escape: "Line 1\nLine 2"
-
-
-
-
-
-
+plainstyle: JohnDoe
+single_quote_style: '''text with : colon'''
+double_quote_style: "Line1\nLine2\nLine3"
