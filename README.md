@@ -39,7 +39,7 @@ Learn basic & advance topics, data types, syntaxes, key features, and capabiliti
 - Visual Studio Code - https://code.visualstudio.com/
 - Python download - https://www.python.org/downloads/
 - YAML Official Website - https://yaml.org/
-- JSON to YAML Website  - http://www.json2yaml.com/
+- YAML to JSON - https://www.fileconverts.com/yaml/yaml-to-json/
 
 # Important commands
 - PyYAML python package installation - pip3 install PyYAML
