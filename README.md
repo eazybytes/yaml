@@ -36,8 +36,11 @@ Learn basic & advance topics, data types, syntaxes, key features, and capabiliti
 - Interest to learn and explore YAML
 
 # Important Links
+- Visual Studio Code - https://code.visualstudio.com/
+- Python download - https://www.python.org/downloads/
 - YAML Official Website - https://yaml.org/
 - JSON to YAML Website  - http://www.json2yaml.com/
-- YAML Parser Website   - http://yaml-online-parser.appspot.com/
-- YAML lint Website     - https://yamllint.readthedocs.io/
 
+# Important commands
+- PyYAML python package installation - pip3 install PyYAML
+- ruamel python package installation - pip3 install ruamel.yaml
